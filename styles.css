@@ -1,0 +1,103 @@
+*>div{
+ border-radius: 15px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://img.freepik.com/free-vector/flat-design-confetti-background_23-2148446718.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 20px;
+}
+h2{
+ font-size: 40px;
+ text-align: center;
+}
+#app {
+    max-width: 1500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    font-size: 22px;
+}
+#part1,#part2{
+  font-size: 18px;
+  font-weight: bolder;
+}
+.button_center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+input{
+   margin-top: 10px;
+   transition: 0.5s;
+}
+input:hover{
+    cursor: pointer;
+}
+label{
+    font-size: 20px;
+}
+#temperament-details{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+#header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+#header>img{
+    width: 200px;
+    height: 200px;
+}
+#header>h1{
+    font-size: 75px;
+    text-align: center;
+}
+#instructions>p{
+ font-size: 25px;
+ font-weight: bolder;
+}
+#instructions>h2{
+    text-align: center;
+    font-size: 40px;
+}
+#result>h2{
+ text-align: center;
+ font-size: 40px;
+}
+#LINK{
+    color: rgb(0,143,254)
+}
+#questions-part1>div, #questions-part2>div{
+ border-left: solid 15px lightblue;
+ border-radius: 8px;
+ margin-bottom: 25px;
+ padding: 15px;
+}
